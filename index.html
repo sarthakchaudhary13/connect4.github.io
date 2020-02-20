@@ -1,77 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+        <title>Sarthak</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-inner sticky-top">
+  <a class="navbar-brand" href="#"><img src="logo.png" alt="My Image" width = "55",height = "55" > </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="connect.css">
-    <title>Connect Four</title>
-  </head>
-  <body>
-    <h2>Welcome To Connect Four!</h2>
-    <h3>The object of this game is to connect four of your chips in a row!</h3>
-    <h4>Let's get started!</h4>
-    <table align="center" class="board" >
-      <tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr>
-      <tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr>
-      <tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr>
-      <tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr><tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr>
-      <tr>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-        <td><button type="button"></button></td>
-      </tr>
-    </table>
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-    <script src="connect.js">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"style="color:rgb(255,215,0)">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="https://www.github.com/sarthakchaudhary13"style="color:rgb(255,215,0)" >Github</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:rgb(255,215,0)"href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu navbar-inner" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"style="color:rgb(212,175,55)">Action</a>
+          <a class="dropdown-item" href="#"style="color:rgb(212,175,55)">Another action</a>
+          <a class="dropdown-item" href="#"style="color:rgb(212,175,55)">Something else here</a>
+        </div>
+      </li>
 
-    </script>
-  </body>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <div  class="container">
+
+
+        <h3 class="quote">Quotes</h3>
+
+        <img class=""src="profile.jpg" id="profile" alt="" ,width = "150", height = "150">
+        <h2 class="pers">Sarthak Vineet Kumar</h2>
+        </div>
+        <section id="intro" >
+            <div class="container">
+
+                <h2 style="font-weight: 600;text-align:center;">ABOUT</h2>
+                <p class="lead">I’m an avid opensource developer currently in my third year of undergraduation in the department of Computer Science And Engineering at Galgotias College of Engineering and Technology.
+                I love programming, listening to music, reading books and meeting new people.A fan of automation;</p>
+                <br><p id="below">In a nutshell, I’m an avid learner and always ready to step into the barren lands!</p>
+            </div>
+        </section>
+    </body>
 </html>
