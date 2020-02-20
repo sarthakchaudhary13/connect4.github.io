@@ -69,3 +69,7 @@ nav {
     margin-right: 50px;
     text-align: center;
 }
+.parent{
+    min-width: 100px;
+    min-height: 50px;
+}

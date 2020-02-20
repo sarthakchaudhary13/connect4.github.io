@@ -4,14 +4,13 @@ var quotes = ['“The purpose of our lives is to be happy." — <strong>Dalai La
                 '“Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.” – <strong>Steve Jobs</strong>']
 
 
-var index = 0;
-$("#quote").fadeTo( 1, 0 );
-setInterval( function(){
-$( "#quote" ).stop().html( quotes[index] ).fadeTo( 500, 1, function(){
-index++;
-$( "#quote" ).delay( 400 ).fadeTo( 500, 0 );
-if ( index == length.quotes - 1 ) {
-index = 0;
-};
-} );
-}, 1800 );
+var cycle = setInterval(change,6000);
+
+function change() {
+
+
+    $(".quote").animate({'opacity':0}, 4000, function(){
+
+    $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).animate({'opacity': 1}, 2000);
+});
+}
