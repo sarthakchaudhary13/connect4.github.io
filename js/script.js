@@ -13,3 +13,11 @@ function change() {
     $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).animate({'opacity': 1}, 2000);
 });
 }
+$(".pic").hover(
+    function(){
+    $(this).animate({'opacity':0.5}, 100)
+},
+    function() {
+    $(this).animate({'opacity':1}, 100)
+
+})
