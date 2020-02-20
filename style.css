@@ -1,0 +1,59 @@
+#profile{
+    border: 1px 1px 1px 1px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 70px;
+    margin-left: 490px;
+    padding: 0px 0px 0px 0px;
+    border-radius:500%;
+    }
+body{
+    background-image: url(background.jpg);
+}
+.navbar-inner {
+    background:transparent;
+}
+
+@font-face {
+font-family: "CustomFont";
+src : url("collegiate/CollegiateBlackFLF.ttf");
+
+}
+@font-face {
+font-family: "CustomFont";
+src : url("collegiate/CollegiateBlackFLF.ttf");
+font-weight: bold;
+}
+nav {
+    font-family: CustomFont;
+    font-size: 25px;
+    min-height: 100px;
+
+}
+.pers{
+    color: #F3F59D;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    font-family: CustomFont;
+}
+.quote{
+    margin-top: 100px;
+    color: #F3F59D;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+}
+#intro{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: black;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(255,255,255,0.6);
+
+}
+.lead,#below{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
