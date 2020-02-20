@@ -41,8 +41,7 @@ nav {
     color: #F3F59D;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 10%;
-    padding-bottom:10%;
+
 
     font-family: CustomFont;
 }
@@ -83,4 +82,9 @@ nav {
   top: 0;
   left: 100%;
   margin-top: -1px;
+}
+
+.linkden{
+
+    text-align: right;
 }
