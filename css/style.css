@@ -12,8 +12,8 @@ body{
     }
 .myinfo{
 
-    background-image: url(background.jpg);
-    
+    background-image: url('/home/sarthak/Desktop/html/website/sarthakchaudhary13.github.io/img/background.jpg');
+
 
 
 }
@@ -55,8 +55,8 @@ nav {
     margin-bottom: 10%;
 }
 #intro{
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 200px;
     background-color: black;
     font-family: 'Fira Sans', sans-serif;
     color: rgb(255,255,255,0.6);
@@ -67,6 +67,11 @@ nav {
     margin-right: 50px;
     text-align: center;
 }
-/* .pic{
-    margin-top: 10px;
+.pic{
+    padding-bottom: 20px;
+    position: relative;
+}
+/* .box{
+    height: 300px;
+    width: 200px
 } */
