@@ -7,11 +7,11 @@ var quotes = ['“The purpose of our lives is to be happy." — <strong>Dalai La
 
 var cycle = setInterval(change,4000);
 
-// function change() {
-//
-//
-//     $(".quote").animate({'opacity':0}, 2000, function(){
-//
-//     $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).animate({'opacity': 1}, 2000);
-// });
-// }
+function change() {
+
+
+    $(".quote").animate({'opacity':0}, 2000, function(){
+
+    $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).animate({'opacity': 1}, 2000);
+});
+}
