@@ -86,8 +86,36 @@ nav {
   margin-top: -1px;
 }
 
-.linkden{
+.toggle{
 
+    filter: invert(100%);
+}
+.name{
+    color:#ffdf00;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+
+}
+.footer{
     text-align: center;
+    
 
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+  border-radius: 500%;
+  color: white;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+.fa:hover {
+    filter: invert(100%);
 }

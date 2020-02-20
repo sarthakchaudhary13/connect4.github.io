@@ -4,7 +4,7 @@ var quotes = ['“The purpose of our lives is to be happy." — <strong>Dalai La
 
 
 var cycle = setInterval(change,4000);
-
+$(".name").fadeOut()
 function change() {
 
 
@@ -16,8 +16,20 @@ function change() {
 $(".pic").hover(
     function(){
     $(this).animate({'opacity':0.5}, 100)
+    $(".name").fadeIn(200)
 },
     function() {
     $(this).animate({'opacity':1}, 100)
+    $(".name").fadeOut(200)
 
-})
+
+});
+$(window).scroll(function(){
+    $(".navbar-inner").css("background","black")
+    $(".navbar-inner").css("min-height","10px")
+
+});
+if ($('nav').scrollTop() === 0){
+    $(".navbar-inner").css("min-height","100px")
+    $(".navbar-inner").css("background","transparent")
+}

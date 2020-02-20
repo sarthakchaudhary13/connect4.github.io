@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <script async src="https://cse.google.com/cse.js?cx=YOUR_ENGINE_ID"></script>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" data-width="400" async defer></script>
         <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -25,7 +29,7 @@
         <nav class="navbar navbar-expand-lg navbar-inner sticky-top">
   <a class="navbar-brand" href="http://svkumar.me"><img src="img/logo.png" alt="My Image" width = "55",height = "55" > </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><img src="img/coll.png" alt=""width="25",hidden="15"> </span>
+    <span class="navbar-toggler-icon"><img class="toggle"src="img/coll.png" alt=""width="25",hidden="15"> </span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,10 +72,13 @@
         <a class="nav-link" href="https://svkumar.me/resume/resume.pdf"style="color:rgb(255,215,0)">Resume<span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form action="https://www.google.com/search" class="searchform form-inline my-2 my-lg-0" method="get" name="searchform" target="_blank">
+<!-- <input class="form-control mr-sm-2" name="sitesearch" type="hidden" placeholder="SEARCH"> -->
+<input autocomplete="on" class="form-control search" name="q" placeholder=" Google Search" required="required"  type="text">
+<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+
   </div>
 </nav>
     <div  class="container spe">
@@ -80,14 +87,25 @@
 
         <h3 class="heading"><span class="quote">“The purpose of our lives is to be happy." — <strong>Dalai Lama</strong></span></h3>
 
+<div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+
 
 
         <img class="pic"src="img/profile.jpg" id="profile" alt="" ,width = "150", height = "150">
+        </div>
+        <div class="col">
+            <div class="name"><h2>Sarthak Vineet Kumar</h2><h3>Contact Info:<br>    Mobile: +919760910561<br>    Email: sarthak@svkumar.me</h3></div>
+        </div>
+        </div>
 </div>
 
 
 
-        <!-- Place this tag where you want the button to render. -->
         </div>
     </div>
         <div id="intro" >
@@ -101,6 +119,18 @@
             </span></p><br><br><br><br>
             </div>
         </div>
+        <footer class="footer">
+            <p>
+                <a  href="https://www.facebook.com/" class="fa fa-facebook link"></a>
+                <a href="https://twitter.com/chaudhary___" class="fa fa-twitter link"></a>
+                <a href="https://www.linkedin.com/in/sarthakchaudhary/" class="fa fa-linkedin link"></a>
+                <a href="https://github.com/sarthakchaudhary13" class="fa fa-github link"></a>
+
+
+
+            </p>
+            <p style="color:white;opacity:0.7;font-size:20px">Copyright &copy Sarthak Vineet Kumar 2020</p>
+        </footer>
     </body>
     <script type="text/javascript" src="js/script.js">
 
