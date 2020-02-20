@@ -8,7 +8,18 @@
     border-radius:500%;
     }
 body{
+        background-color: black;
+    }
+.myinfo{
+
     background-image: url(background.jpg);
+    position: inherit;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
 }
 .navbar-inner {
     background:transparent;
@@ -34,7 +45,8 @@ nav {
     color: #F3F59D;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
     font-family: CustomFont;
 }
 .quote{
