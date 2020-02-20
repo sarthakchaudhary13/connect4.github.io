@@ -10,8 +10,8 @@ var cycle = setInterval(change,4000);
 function change() {
 
 
-    $(".quote").slideToggle(2000, function(){
+    $(".quote").animate({'opacity':0}, 2000, function(){
 
-    $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).slideToggle(2000)
+    $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).animate({'opacity': 1}, 2000);
 });
 }
