@@ -5,13 +5,13 @@ var quotes = ['“The purpose of our lives is to be happy." — <strong>Dalai La
                     '"If you can'+"'t take risks, you can'"+'t create a future."-<strong>Monkey.D.Luffy</strong>' ]
 
 
-// var cycle = setInterval(change,4000);
-//
-// function change() {
-//
-//
-//     $(".quote").slideToggle(2000, function(){
-//
-//     $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).slideToggle(2000)
-// });
-// }
+var cycle = setInterval(change,4000);
+
+function change() {
+
+
+    $(".quote").slideToggle(2000, function(){
+
+    $(this).html(quotes[Math.floor(Math.random()*quotes.length)]).slideToggle(2000)
+});
+}
