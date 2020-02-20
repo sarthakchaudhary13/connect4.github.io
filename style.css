@@ -2,8 +2,8 @@
     border: 1px 1px 1px 1px;
     border-color: white;
     border-style: solid;
-    margin-top: 70px;
-    margin-left: 490px;
+    margin-top: 15%px;
+    margin-left: 45%;
     padding: 0px 0px 0px 0px;
     border-radius:500%;
     }
@@ -13,11 +13,7 @@ body{
 .myinfo{
 
     background-image: url(background.jpg);
-    position: inherit;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    
 
 
 }
@@ -44,17 +40,19 @@ nav {
 .pers{
     color: #F3F59D;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding-bottom: 100px;
+    margin-top: 5px;
+    margin-bottom: 10%;
+    padding-bottom:10%;
+
     font-family: CustomFont;
 }
-.quote{
-    margin-top: 100px;
+.heading{
+    margin-top: 15%;
     color: #F3F59D;
     text-align: center;
     font-family: 'Great Vibes', cursive;
-    font-size: 35px;
+    font-size: 45px;
+    margin-bottom: 10%;
 }
 #intro{
     padding-top: 200px;
@@ -69,7 +67,6 @@ nav {
     margin-right: 50px;
     text-align: center;
 }
-.parent{
-    min-width: 100px;
-    min-height: 50px;
-}
+/* .pic{
+    margin-top: 10px;
+} */
