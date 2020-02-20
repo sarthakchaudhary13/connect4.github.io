@@ -29,7 +29,3 @@ $(window).scroll(function(){
     $(".navbar-inner").css("min-height","10px")
 
 });
-if ($('nav').scrollTop() === 0){
-    $(".navbar-inner").css("min-height","100px")
-    $(".navbar-inner").css("background","transparent")
-}
