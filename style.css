@@ -34,11 +34,20 @@ src : url("collegiate/CollegiateBlackFLF.ttf");
 font-weight: bold;
 }
 nav {
-    font-family: CustomFont;
+    font-family: Roboto;
     font-size: 25px;
     min-height: 100px;
+    font-weight: 600;
 
 }
+nav a {
+    opacity: 0.7;
+}
+nav a:hover{
+    opacity: 1;
+}
+
+
 .pers{
     color: #F3F59D;
     text-align: center;
@@ -85,15 +94,9 @@ nav {
   overflow: hidden;
   padding-top: 40px;
 }
-.dropdown-submenu {
-  position: relative;
-}
 
-.dropdown-submenu .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -1px;
-}
+
+
 
 .toggle{
 
@@ -132,4 +135,18 @@ a:hover, a:visited, a:link, a:active
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
- 
+.head4{
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+.cont4{
+    margin-top: 70px;
+}
+.cont4 img{
+    margin-left: 28%;
+    opacity: 0.6;
+}
+.cont4 img:hover{
+    opacity: 1;
+}
