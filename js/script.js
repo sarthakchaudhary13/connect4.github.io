@@ -22,7 +22,7 @@ function change() {
 }
 $(".pic").hover(
     function(){
-    $(this).animate({'opacity':0.5}, 100)
+    $(this).animate({'opacity':1}, 100)
     $(".name").fadeIn(200)
 },
     function() {
