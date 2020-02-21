@@ -98,7 +98,7 @@ nav {
 }
 .footer{
     text-align: center;
-    
+
 
 }
 .fa {
@@ -119,3 +119,7 @@ a:hover, a:visited, a:link, a:active
 .fa:hover {
     filter: invert(100%);
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
