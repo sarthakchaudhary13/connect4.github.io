@@ -13,7 +13,7 @@ ind = 0;
 function change() {
 
 
-    $(".quote").animate({'opacity':0}, 2000, function(){
+    $(".quote").animate({'opacity':0}, 1000, function(){
 
     $(this).html(quotes[ind]).animate({'opacity': 1}, 2000);
     ind+=1;
