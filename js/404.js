@@ -1,4 +1,4 @@
-var redirect = setInterval(red,6000);
+var redirect = setInterval(red,11000);
 function red(){
     window.location = "https://svkumar.me/";
 
