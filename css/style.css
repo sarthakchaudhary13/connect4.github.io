@@ -1,0 +1,73 @@
+body {
+	background-color: #000
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+  font-size:14px;
+  margin-top: 0%;
+}
+
+a {
+	color: #0bc;
+	text-decoration: none;
+}
+
+#a {
+	color: #0f0;
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #ff0096;
+}
+
+#k {
+    	animation: change 1s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}
+
+.error{
+  color: red;
+}
+
+.terminal{
+  border-style: dashed;
+  border-color: wheat;
+  margin-top: 0%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  overflow: scroll;
+  min-height: 400px;
+  max-height: 400px;
+  scrollbar-highlight-color: wheat;
+}
+
+.about-container{
+  color: gray;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.profile{
+  margin-left: 0%;
+}
