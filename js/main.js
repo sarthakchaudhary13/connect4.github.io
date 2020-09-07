@@ -8,7 +8,7 @@ function resolve_command(command) {
   } else if (command == 'ls') {
     printOut(ls(), true);
   } else if (command.slice(0, 4) == 'cat ') {
-    printOut(cat(command.slice(4)), true)
+    cat(command.slice(4))
   } else {
     printOut(command, false)
   }
@@ -33,9 +33,10 @@ function ls() {
   "
 }
 
+
 // cat command
 function cat(fname){
-  $.get('../files/'+fname,function(data){
+  $.get('files/'+fname,function(data){
     if (data.status == 200){
       printOut(data.responseText,true)
     }
@@ -44,6 +45,8 @@ function cat(fname){
     }
   });
 }
+
+
 // prints output returned by commnad functions
 function printOut(out, success) {
   if (success) $('.history').append('<p class="success">' + out + ' </p>');
