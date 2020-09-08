@@ -14,7 +14,6 @@ function resolve_command(command) {
   }
 }
 
-
 //command help help
 function help() {
   return "\
@@ -37,6 +36,7 @@ function ls() {
 // cat command
 function cat(fname){
   $.get('files/'+fname,function(data){
+    console.log(data)
     if (data.status == 200){
       printOut(data.responseText,true)
     }
@@ -50,7 +50,7 @@ function cat(fname){
 // prints output returned by commnad functions
 function printOut(out, success) {
   if (success) $('.history').append('<p class="success">' + out + ' </p>');
-  else $('.history').append('<p class="error">Error: ' + out + ', command not found!<br>see help</p>');
+  else $('.history').append('<p class="error">Error: command not found!<br>see help</p>');
 }
 
 function updateScroll() {
