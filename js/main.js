@@ -38,7 +38,7 @@ function cat(fname){
   $.get('files/'+fname,function(data){
     console.log(data)
     if (['about.txt', 'contact.txt', 'projects.txt'].includes(fname) ){
-      printOut(data.responseText,true)
+      printOut(data,true)
     }
     else{
       printOut('<span class="error">No such file found!</span>',true);
