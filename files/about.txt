@@ -1,6 +1,6 @@
-<p>I'm a Backend developer at <a href="https://highbreed.co/">Highbreed Corp.</a> and in my 4<sup>th</sup> year of Graduation.<br>
-I am very passionate about programming and solving problems, my two most favourite languages are C and Python but I am open to work with any technologies. 
-I love to get involved in Open-Source development.<br> 
+<p class="hide" id="about.txt">I'm a Backend developer at <a href="https://highbreed.co/">Highbreed Corp.</a> and in my 4<sup>th</sup> year of Graduation.<br>
+I am very passionate about programming and solving problems, my favourite languages are C, Haskel and Python but I am open to work with any.
+I have huge interest in machine learning and I love to get involved in Open-Source development.<br> 
 In my free time I also love to tweak with my operating system(GNU/linux), if you are interested you can find my 
 <a href="https://github.com/sarthakchaudhary13/dotfiles/">dotfiles here</a>.
-Apart from all these things I also like to play football and read some self-books, my favourite writer is 
+Apart from all these things I also like to play football and read books.</p>

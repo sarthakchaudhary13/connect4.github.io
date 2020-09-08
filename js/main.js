@@ -37,7 +37,7 @@ function ls() {
 function cat(fname){
   $.get('files/'+fname,function(data){
     console.log(data)
-    if (data.status == 200){
+    if (['about.txt', 'contact.txt', 'projects.txt'].includes(fname) ){
       printOut(data.responseText,true)
     }
     else{
