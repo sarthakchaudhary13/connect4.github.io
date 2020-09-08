@@ -65,7 +65,7 @@ $(function () {
     if (e.key != "Enter") {
       $('#text').append(e.key);
     } else {
-      var tmp = $('.command')[-1].clone();
+      var tmp = $('.command').clone();
       tmp.find('#cursor').remove();
       $('.history').append(tmp.removeClass('command').prop('outerHTML'));
       updateScroll()
