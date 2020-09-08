@@ -65,9 +65,9 @@ $(function () {
     if (e.key != "Enter") {
       $('#text').append(e.key);
     } else {
-      var tmp = $('.command').clone();
+      var tmp = $('.command')[-1].clone();
       tmp.find('#cursor').remove();
-      $('.history').append(tmp.prop('outerHTML'));
+      $('.history').append(tmp.removeClass('command').prop('outerHTML'));
       updateScroll()
       resolve_command($('#text').text());
       $('.history p #text').removeAttr('id');
