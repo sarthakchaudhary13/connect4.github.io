@@ -71,3 +71,12 @@ a {
 .profile{
   margin-left: 0%;
 }
+a:hover{
+  background-color: white;
+  color: black;
+}
+a:link{
+  /* background-color; */
+  color:white;
+  text-decoration-line: underline;
+}
